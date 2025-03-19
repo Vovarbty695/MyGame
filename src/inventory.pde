@@ -11,13 +11,13 @@ void inventory() {
 
   if (mousePressed) {
     if (selected == 0) {
-      tileColor = grass;
+      blockColor = forest_grass;
     }
     if (selected == 1) {
-      tileColor = water;
+      blockColor = water;
     }
     if (selected == 2) {
-      tileColor = dirt;
+      blockColor = oak;
     }
   }
 
